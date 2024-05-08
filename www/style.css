@@ -1,0 +1,141 @@
+html, body {
+    font-family: Arial;
+    color: white;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: text-top;
+    padding: 50px 0 50px 0;
+}
+
+input {
+    border-radius: 6px 0 0 6px;
+    border: none;
+    height: 30px;
+    vertical-align: center;
+    padding: 0 0 0 10px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.search-button {
+    background-color: #272629;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    color: white;
+    cursor: pointer;
+}
+
+#landingDisplay {
+    position: relative;
+    z-index: 4;
+}
+
+#errorDisplay {
+    position: relative;
+    color: red;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    z-index: 5;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 8px 0 0 8px;
+}
+
+.back-button-img {
+    width: 30px;
+    height: auto;
+    opacity: 0.8;
+}
+
+.location-text {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 50px 0 0 0;
+}
+
+.temperature {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 15px #FFFFFF;
+    padding: 0;
+    margin: 0;
+}
+.feelslike {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.condition-image {
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+    height: auto;
+    padding: 10px 0 0 0;
+}
+
+.condition {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 0;
+}
+
+#bgOverlay {
+    display: block;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#bgImage {
+    display: block;
+    background-image: url(/img/defaultbackground.png);
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#weatherDisplay {
+    display: block;
+    top: 0;
+    position: relative;
+    z-index: 3;
+    background-color: transparent;
+}

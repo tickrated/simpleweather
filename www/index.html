@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Simple Weather</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="/img/simpleweather.png">
+        <script src="eel.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="landingDisplay">
+            <h1 class="title">Simple Weather</h1>
+            <div class="search">
+                <input type="text" id="location" placeholder="Search location">
+                <button class="search-button" onclick="getWeather()">Search</button>
+            </div>
+        </div>
+        <div id="bgImage"></div>
+        <div id="bgOverlay"></div>
+        <div id="errorDisplay"></div>
+        <div id="weatherDisplay"></div>
+    </body>
+</html>
