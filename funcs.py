@@ -3,7 +3,7 @@ import json
 import eel
 from datetime import datetime
 
-WEATHERAPI_KEY = '99fa2fdc702a4102a82164952240805' # For unlimited use change to your API key
+WEATHERAPI_KEY = '' # Change to your API key
 API_URL = 'https://api.weatherapi.com/v1/'
 images = ['/img/morning.png', '/img/day.png', '/img/sunset.png', '/img/night.png']
 
